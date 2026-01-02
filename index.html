@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Tienda<span>UN</span></a>
+            
+            <div class="header-actions">
+                <button id="theme-toggle" class="btn-icon" aria-label="Cambiar tema">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                
+                <button id="cart-btn" class="btn-icon" aria-label="Ver carrito">
+                    <i class="fa-solid fa-shopping-cart"></i>
+                    <span id="cart-count" class="badge">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container main-layout">
+        <aside class="filters">
+            <h3><i class="fa-solid fa-filter"></i> Filtros</h3>
+            
+            <div class="filter-group">
+                <label for="category-filter">Categoría</label>
+                <select id="category-filter">
+                    <option value="all">Todas</option>
+                    <option value="ropa">Ropa</option>
+                    <option value="accesorios">Accesorios</option>
+                    <option value="tecnologia">Tecnología</option>
+                    <option value="papeleria">Papeleria</option>
+                    <option value="recipiente">Recipiente</option>
+
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="price-filter">Precio Máximo: <span id="price-value">$500.000</span></label>
+                <input type="range" id="price-filter" min="0" max="500000" value="500000" step="5000">
+            </div>
+        </aside>
+
+        <main>
+            <section id="products-container" class="products-grid">
+                </section>
+        </main>
+    </div>
+
+    <div id="cart-overlay" class="cart-overlay hidden">
+        <aside class="cart-sidebar">
+            <div class="cart-header">
+                <h2>Tu Carrito</h2>
+                <button id="close-cart" class="close-btn">&times;</button>
+            </div>
+            
+            <div id="cart-items" class="cart-items">
+                <p class="empty-msg">El carrito está vacío</p>
+            </div>
+
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <h3>Total:</h3>
+                    <span id="cart-total-price">$0.00</span>
+                </div>
+                <button id="checkout-btn" class="btn-primary">Comprar</button>
+            </div>
+        </aside>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

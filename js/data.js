@@ -1,0 +1,65 @@
+export const productos = [
+    {
+        id: 1,
+        nombre: "Hoodie Institucional UN",
+        precio: 120000,
+        categoria: "ropa",
+        imagen: "./assets/imagenes/Buso_Vino_Tinto_Logo_Unal.png",
+    },
+    {
+        id: 2,
+        nombre: "Gorra Clásica Bordada",
+        precio: 45000,
+        categoria: "accesorios",
+        imagen: "./assets/imagenes/Gorra_Logo_Unal.png",
+    },
+    {
+        id: 3,
+        nombre: "Termo Metálico Negro",
+        precio: 65000,
+        categoria: "recipiente",
+        imagen: "./assets/imagenes/Termo_Logo_Unal.png",
+    },
+    {
+        id: 4,
+        nombre: "Camiseta Básica Logo",
+        precio: 55000,
+        categoria: "ropa",
+        imagen: "./assets/imagenes/Camiseta_Negra_Logo_Unal.png",
+    },
+    {
+        id: 5,
+        nombre: "Audífonos Logo UN",
+        precio: 280000,
+        categoria: "tecnologia",
+        imagen: "./assets/imagenes/Audifonos_Logo_Unal.png",
+    },
+    {
+        id: 6,
+        nombre: "Maletín Urbano UN",
+        precio: 150000,
+        categoria: "accesorios",
+        imagen: "./assets/imagenes/Maletin_Logo_Unal.png",
+    },
+    {
+        id: 7,
+        nombre: "Zapatos UN",
+        precio: 190000,
+        categoria: "ropa",
+        imagen: "./assets/imagenes/Zapatos_Logo_Unal.png",
+    },
+    {
+        id: 8,
+        nombre: "Cuadernos Logo UN",
+        precio: 35000,
+        categoria: "papeleria",
+        imagen: "./assets/imagenes/Cuadernos_Logo_Unal.png",
+    },
+     {
+        id: 9,
+        nombre: "Jogger Universitario UN",
+        precio: 95000,
+        categoria: "ropa",
+        imagen: "./assets/imagenes/Pantalon_Sudadera_Logo_Unal.png",
+    }
+];
