@@ -36,7 +36,6 @@ Este proyecto fue desarrollado bajo la filosofía **Vanilla JS**, sin dependenci
 
 ## 🎨 Créditos y Recursos
 
-* **Diseño de Interfaz:** Inspirado en la identidad visual institucional de la UNAL (colores vino tinto y dorado).
 * **Generación de Imágenes:** Los assets gráficos y productos mostrados fueron generados utilizando inteligencia artificial con **Nano Banana** de **Google Gemini**.
 * **Iconografía:** [FontAwesome](https://fontawesome.com/).
 
@@ -51,5 +50,6 @@ Tienda_UN/
 ├── js/
 │   ├── data.js      # Base de datos simulada (Array de objetos JSON)
 │   └── main.js      # Lógica principal de la aplicación
-├── index.html       # Punto de entrada
-└── README.md        # Documentación
+├── LICENSE          # Licencia MIT
+├── README.md        # Documentación
+└── index.html       # Punto de entrada
