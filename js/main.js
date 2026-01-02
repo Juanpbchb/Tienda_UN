@@ -44,7 +44,7 @@ function renderProducts(productsList) {
     // 1. Limpiamos el contenedor
     productsContainer.innerHTML = '';
 
-    // 2. VALIDACIÓN: ¿Hay productos?
+    // 2. VALIDACIÓN:
     if (productsList.length === 0) {
         
         productsContainer.classList.add('is-empty');
@@ -83,7 +83,7 @@ function renderProducts(productsList) {
         productsContainer.appendChild(card);
     });
 
-    // 4. Reactivamos los botones de agregar
+    
     addEventToButtons();
 }
 

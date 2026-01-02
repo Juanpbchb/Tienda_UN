@@ -1,18 +1,51 @@
-# ShopUI - Catálogo de Productos
+# 🛒 Tienda Universitaria UNAL - Catálogo Interactivo
 
-Aplicación web de catálogo de productos con carrito de compras, desarrollada con Vanilla JavaScript, HTML5 y CSS3.
+![Estado del Proyecto](https://img.shields.io/badge/Estado-Finalizado-success)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-blue)
 
-## 🚀 Características
-- Diseño Responsive (Mobile First).
-- Carrito de compras persistente (LocalStorage).
-- Filtros por categoría y precio.
-- UI Moderna con Dark Mode support (preparado).
+Catálogo interactivo de productos de la UNAL.
 
-## 🛠️ Tecnologías
-- HTML5 Semántico
-- CSS3 (Variables, Flexbox, Grid)
-- JavaScript (ES6 Modules)
 
-## 📦 Instalación
-1. Clonar el repositorio.
-2. Abrir `index.html` en tu navegador o usar Live Server.
+
+## ✨ Características Principales
+
+* **Diseño Completamente Responsivo:** Por medio de **CSS Grid** ajusta la cantidad de columnas de productos según la resolución de la pantalla.
+* **Modo Oscuro / Claro:** Implementación de theme switching con persistencia visual, ajustando toda la paleta de colores (textos, fondos, tarjetas y alertas) para una visualización cómoda en cualquier entorno.
+* **Filtrado:**
+    * Filtro por **Categoría** mediante select (Ropa, Tecnología, Accesorios, Papelería y Recipiente).
+    * Filtro por **Precio** mediante un slider interactivo.
+* **Carrito de Compras:**
+    * Agregar productos con validación visual.
+    * Cálculo automático de subtotales y total.
+    * Persistencia de datos (LocalStorage) para no perder el carrito al recargar.
+* **Feedback Visual (UX):**
+    * **Alertas Toast:** Notificaciones emergentes al agregar productos.
+    * **Estados Vacíos (Empty States):** Mensaje visual cuando las búsquedas o filtros no arrojan resultados.
+
+## 🛠️ Tecnologías Utilizadas
+
+Este proyecto fue desarrollado bajo la filosofía **Vanilla JS**, sin dependencias ni frameworks externos, para demostrar dominio de los fundamentos web.
+
+* **HTML5:** Estructura semántica.
+* **CSS3:** Variables CSS, Flexbox, CSS Grid y Media Queries.
+* **JavaScript:** Lógica de filtrado, manipulación del DOM y gestión del LocalStorage.
+
+## 🎨 Créditos y Recursos
+
+* **Diseño de Interfaz:** Inspirado en la identidad visual institucional de la UNAL (colores vino tinto y dorado).
+* **Generación de Imágenes:** Los assets gráficos y productos mostrados fueron generados utilizando inteligencia artificial con **Nano Banana** de **Google Gemini**.
+* **Iconografía:** [FontAwesome](https://fontawesome.com/).
+
+## 📂 Estructura del Proyecto
+
+```text
+Tienda_UN/
+├── assets/
+│   └── images/      # Imágenes optimizadas de los productos
+├── css/
+│   └── styles.css   # Estilos globales y responsivos
+├── js/
+│   ├── data.js      # Base de datos simulada (Array de objetos JSON)
+│   └── main.js      # Lógica principal de la aplicación
+├── index.html       # Punto de entrada
+└── README.md        # Documentación
