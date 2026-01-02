@@ -5,6 +5,10 @@
 
 Catálogo interactivo de productos de la UNAL.
 
+## 🚀 Demo en Vivo
+
+Puedes ver el proyecto funcionando aquí:
+**[🔗 Ver Tienda UN en GitHub Pages](https://juanpbchb.github.io/Tienda_UN/)**
 
 
 ## ✨ Características Principales
